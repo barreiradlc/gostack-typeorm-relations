@@ -2,9 +2,10 @@
   "type": "postgres",
   "host": "localhost",
   "port": "5432",
-  "username": "postgres",
-  "password": "docker",
+  "username":"barreiradlc",
+  "password":"123123",
   "database": "gostack_desafio09",
+  "uuidExtension": "pgcrypto",
   "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
   "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
   "cli": {
